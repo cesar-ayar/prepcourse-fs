@@ -4,12 +4,16 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Mi Primer Sitio Web</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- Contenido de la página va aquí-->
         <header> 
-            <h1> 
-                ¡Hola! Este es mi primer archivo HTML.<hr />
+            <h1 class="titulo"> 
+                ¡Hola! Este es mi <strong id="titulo-strong">primer archivo HTML</strong>.<hr />
             </h1>
         </header>
         <main> 
@@ -24,8 +28,11 @@
         </main>
         <footer>
             <h3>
-                Ahora iré a terminarme de romper la cabeza con estas líneas. <hr /> 
+                Ahora iré <span id="ocultar" class="ver">a terminar de hacer esta página.</span>. <hr /> 
             </h3>
+            <p>
+                Como les quedo el 👀, maté mis neuronas, pero logré añadirle estilos a este archivo con CSS.
+            </p>
         </footer>
     </body>
 </html>
